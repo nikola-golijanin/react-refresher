@@ -1,3 +1,7 @@
 export default function NewMeetupPage() {
-  return <div>New Meetup page</div>;
+  return (
+    <section>
+      <h1>Add new Meetup</h1>
+    </section>
+  );
 }
