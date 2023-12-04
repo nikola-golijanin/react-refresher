@@ -15,7 +15,7 @@ export default function MeetupItem({ id, image, title, address, description }) {
           <p>{description}</p>
         </div>
         <div className={classes.actions}>
-          <Link to="/favorites" exact>
+          <Link to="/favorites" exact={true}>
             <button>To Favs</button>
           </Link>
         </div>

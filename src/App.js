@@ -8,7 +8,7 @@ export default function App() {
   return (
     <Layout>
       <Switch>
-        <Route path="/" exact>
+        <Route path="/" exact={true}>
           <AllMeetupsPage />
         </Route>
         <Route path="/new-meetup">
