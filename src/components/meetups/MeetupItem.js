@@ -1,6 +1,5 @@
 import classes from "./MeetupItem.module.css";
 import Card from "../ui/Card";
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import { useContext } from "react";
 import FavoritesContext from "../../store/favorites-context";
 
